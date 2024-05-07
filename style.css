@@ -1,0 +1,123 @@
+.oval {
+  position: relative;
+  width: 100px; 
+  height: 150px; 
+  margin-left: 20px;
+  background-color: rgb(118, 209, 240);
+  border-radius: 75% 75%; 
+  
+}
+
+.showOvel{
+  display: flex;
+ 
+}
+
+.result{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.rotatebtns{
+  display: flex;
+  margin-left: 20px;
+}
+
+
+/* .box {
+  width: 100px; 
+  height: 150px; 
+  margin-left: 20px;
+  background-color: rgb(197, 97, 97);
+  /*cursor: move;
+  resize: both;
+  overflow: auto;*/
+ 
+  .box {
+  position: absolute !important;
+
+  user-select: none;
+  transform: translate(-50%, -50%);
+  /* cursor: move!important;
+  resize: both!important;
+  overflow: auto!important;
+   */
+
+} 
+  
+
+
+.core {
+ 
+  width: 100px; 
+  height: 150px; 
+  margin-left: 20px;
+  background-color: rgb(197, 97, 97);
+ 
+ 
+  
+  
+}
+
+.draggable {
+  cursor: move;
+  resize: both;
+  overflow: auto;
+}
+
+#dynamicCores {
+  display: flex;
+  justify-content: center; /* Horizontally centers the child */
+  align-items: center; /* Vertically centers the child */
+  width: 800px; /* Ensure the width is set */
+  height: 800px; /* Ensure the height is set */
+  border: 1px solid black; /* Optional: to visualize the container */
+ }
+
+ #ellipse {
+  display: flex;
+  justify-content: center; /* Horizontally centers the child */
+  align-items: center; /* Vertically centers the child */
+ }
+ 
+ .oval {
+  width: 100px; 
+  height: 150px; 
+  margin-left: 20px;
+  background-color: rgb(150, 231, 245);
+  border-radius: 75% 75%; 
+  overflow:hidden;
+ }
+
+
+
+ 
+  
+.ui-rotatable-handle {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  background-image: url(rotate.png);
+  background-size: 100%;
+  left: 2px;
+  bottom: 2px;
+}
+
+
+:root {
+  /* id-1 */
+  --left-1: 200px;
+  --top-1: 480px;
+  --width-1: 200px;
+  --height-1: 200px;
+  --bg-1: #ffff00cc;
+ 
+  
+
+  
+}
+
+.dynamicSizecores{
+  margin-left: 100px;
+}
